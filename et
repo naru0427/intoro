@@ -1,0 +1,114 @@
+[33mcommit 41cd78a33e3ed5b084a64b4f8da810beb277d23a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: naru0427 <narumih.216@gmail.com>
+Date:   Thu Aug 29 15:14:30 2024 +0900
+
+    1 git statusコマンドを追記
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex a94217f..74e0d79 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -2,4 +2,5 @@[m
+ 2 基本的なワークフローを学びます。[m
+ 3 git add[m
+ 4 git commit[m
+[31m-5 git rm[m
+\ No newline at end of file[m
+[32m+[m[32m5 git rm[m
+[32m+[m[32m6 git status[m[41m	[m
+\ No newline at end of file[m
+
+[33mcommit 166080e59ef6a1edd7f5353c00de068cc3f8a2c2[m
+Author: naru0427 <narumih.216@gmail.com>
+Date:   Thu Aug 29 15:05:52 2024 +0900
+
+    複数ファイルのcommit
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex a0322e5..a94217f 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -1,4 +1,5 @@[m
+ 1 Gitの練習をしていきます。[m
+ 2 基本的なワークフローを学びます。[m
+ 3 git add[m
+[31m-4 git commit[m
+\ No newline at end of file[m
+[32m+[m[32m4 git commit[m
+[32m+[m[32m5 git rm[m
+\ No newline at end of file[m
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3690247[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m新規作成したファイル[m
+\ No newline at end of file[m
+
+[33mcommit 7bc53a8054c1c950b33ad8f7eb69a770dcdf4ae0[m
+Author: naru0427 <narumih.216@gmail.com>
+Date:   Thu Aug 29 15:01:29 2024 +0900
+
+    1 second.txt削除
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mdeleted file mode 100644[m
+[1mindex eba18c4..0000000[m
+[1m--- a/second.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-`追加したファイル[m
+\ No newline at end of file[m
+
+[33mcommit fe9fc7b90fe7c88180c15f774078f464785faf78[m
+Author: naru0427 <narumih.216@gmail.com>
+Date:   Thu Aug 29 14:57:44 2024 +0900
+
+    1 second.txtを追加
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eba18c4[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m`追加したファイル[m
+\ No newline at end of file[m
+
+[33mcommit 5cd3d0c3123aba35af32c0f56bddfa33f5e357a9[m
+Author: naru0427 <narumih.216@gmail.com>
+Date:   Thu Aug 29 14:48:45 2024 +0900
+
+    add,commitのコマンドを追記
+    
+    講座３－４を受講した
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex db15b8f..a0322e5 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -1,2 +1,4 @@[m
+ 1 Gitの練習をしていきます。[m
+[31m-2 基本的なワークフローを学びます。[m
+\ No newline at end of file[m
+[32m+[m[32m2 基本的なワークフローを学びます。[m
+[32m+[m[32m3 git add[m
+[32m+[m[32m4 git commit[m
+\ No newline at end of file[m
+
+[33mcommit bd55db15da339348a461174ef2911470bb3218ab[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: naru0427 <narumih.216@gmail.com>
+Date:   Thu Aug 29 14:31:21 2024 +0900
+
+    initial commit
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..db15b8f[m
+[1m--- /dev/null[m
+[1m+++ b/first.txt[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m1 Gitの練習をしていきます。[m
+[32m+[m[32m2 基本的なワークフローを学びます。[m
+\ No newline at end of file[m

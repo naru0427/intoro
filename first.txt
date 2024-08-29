@@ -3,4 +3,5 @@
 3 git add
 4 git commit
 5 git rm
-6 git status	
+6 git status
+7 git diff
